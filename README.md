@@ -35,7 +35,7 @@ I don't think this program is useful for English users LOL
 
 很可能有bug
 
-## 开原协议 Open SourceLicense
+## 开源协议 Open SourceLicense
 
 WTFPL
 
