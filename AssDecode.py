@@ -18,7 +18,7 @@ def ReadAssHead(filename):  # 读取ass文件头部信息
     x = assFile.read()
     y = """Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"""
     x = x[0:x.find(y) + len(y) + 1]  # 只保留头
-    x = x.replace("[Script Info]", u"[Script Info]\n; Synced by AutoTimeMachine 1.0\n; https://github.com")
+    x = x.replace("[Script Info]", u"[Script Info]\n; Synced by AutoTimeMachine 1.0\n; https://github.com/AutoTimeMachine/AutoTimeMachine")
     # print(x)
     return x
 
