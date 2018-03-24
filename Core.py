@@ -17,7 +17,7 @@ def Merge(srt, ass):
         else:
             flag = 0  # 是否匹配成功
             for x in range(cSrt, allSrt):
-                if int(srt[x][1]) - int(ass[cAss][3]) > 40:  # ■■■■■此处修改两版本字幕同一句话时间轴允许偏差最大值（*BUG 默认 60秒）
+                if int(srt[x][1]) - int(ass[cAss][3]) > 15:  # ■■■■■此处修改两版本字幕同一句话时间轴允许偏差最大值（*BUG 默认 60秒）
                     break
                 if ass[cAss][5].lower() == srt[x][3].lower() or Levenshtein(ass[cAss][5], srt[x][3]) > 70:
                     # ■■■■■此处修改两版本对白可认为是同义句所需相似度 默认 ：70（%）
