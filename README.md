@@ -34,6 +34,7 @@ I don't think this program is useful for English users LOL
 ## Bug
 
 很可能有bug
+遇到bug用别的软件把ass字幕按照事件排序可能有用
 
 ## 开源协议 Open Source License
 
