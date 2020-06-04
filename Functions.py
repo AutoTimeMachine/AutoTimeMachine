@@ -54,7 +54,7 @@ def strtime(t):
     mil = int((t - int(t)) * 100) % 100
     mil = u"%02d" % mil
     sec = int(t) % 60
-    minute = (int(t) // 60) % 3600
+    minute = (int(t) // 60) % 60
     hour = int(t) // 3600
     return u"%d:%02d:%02d.%s" % (hour, minute, sec, mil)
 
